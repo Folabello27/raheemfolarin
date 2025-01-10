@@ -115,7 +115,7 @@ input, button, textarea, select { font: inherit }
     --teal-600: #0D9488;
     --teal-700: #0F766E;
     --teal-800: #115E59;
-    --teal-900: #134E4A;
+    --teal-900: #112D46;
 
     --cyan-050: #ECFEFF;
     --cyan-100: #CFFAFE;
@@ -295,8 +295,9 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
+/* image */
 img {
-margin-bottom: 32px;
-border-radius: 15px;
+    margin-bottom: 32px;
+    /*soften corners of image*/
+    border-radius: 15px;
 }

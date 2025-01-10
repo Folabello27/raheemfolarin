@@ -116,7 +116,7 @@ input, button, textarea, select { font: inherit }
     --teal-600: #0D9488;
     --teal-700: #0F766E;
     --teal-800: #115E59;
-    --teal-900: #134E4A;
+    --teal-900: #112D46;
 
     --cyan-050: #ECFEFF;
     --cyan-100: #CFFAFE;
@@ -239,9 +239,9 @@ body {
 /* HEADER */
 header { 
     display: flex; flex-direction: column; justify-content: space-around;
-    align-items: center; padding: 20px 0; background-color: var(--yellow-200);
+    align-items: center; padding: 20px 0; background-color: var(--yellow-500);
     margin-left:auto; margin-right:auto; width: 100%;
-    color: var(--blue-800);
+    background-color: var(--blue-800);
 }
 
 @media (min-width: 1025px) { header { padding: 4% 20% } }
@@ -258,7 +258,7 @@ header h1 {
     text-align: center;
     margin-top: -12px;
     margin-bottom: 32px;
-    color: var(--blue-800);
+    color:#fff
 }
 
 /* Small heading */
@@ -267,7 +267,7 @@ header h2 {
     color: var(--blue-800);
     line-height: 1.4;
     text-align: center;
-    color: var(--blue-800);
+    color:var(--yellow-100);
     font-weight: 400;
 }
 
@@ -309,9 +309,9 @@ p {
     margin-bottom: 16px;
     font-weight: 400
 }
-
+/* images */
 img {
 margin-bottom: 42px;
+/* Drop Shadow Effect at right and bottom of image */
 box-shadow: 8px 10px 8px #888;
-
-}
+} 
